@@ -1,0 +1,16 @@
+{
+  "name": "mongo-mongoose-mocha-crud",
+  "version": "1.0.0",
+  "description": "A simple test-driven development of CRUD operations in a Mongo DB with mongoose.js and Mocha.js",
+  "main": "index.js",
+  "scripts": {
+    "test":  "nodemon --exec \"mocha\""
+  },
+  "author": "Pepper Urbaniak",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0",
+    "mongoose": "^4.8.3",
+    "nodemon": "^1.11.0"
+  }
+}
